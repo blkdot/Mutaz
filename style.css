@@ -645,7 +645,7 @@ li {
     scrollbar-width: 0px;
 }
 
-*::-webkit-scrollbar {
+.carousel__viewport::-webkit-scrollbar {
     width: 0;
 }
 
@@ -654,7 +654,7 @@ li {
 }
 
 *::-webkit-scrollbar-thumb {
-    background: transparent;
+    /* background: transparent; */
     border: none;
 }
 

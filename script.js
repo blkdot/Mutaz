@@ -1,4 +1,3 @@
-
 $(function () {
     $('#dg-container').carrousel({
         current: 0,
@@ -492,11 +491,16 @@ var owl = $('.owl-carousel');
 owl.owlCarousel({
     // items: 6,
     // items change number for slider display on desktop
+    loop: true,
+    margin: 10,
+    autoplay: true,
+    autoplayTimeout: 5000,
+    autoplayHoverPause: true,
     responsiveClass:true,
     responsive:{
         0:{
             items:1,
-            nav:true
+            nav:false
         },
         600:{
             items:3,
@@ -504,15 +508,8 @@ owl.owlCarousel({
         },
         1000:{
             items:6,
-            nav:true,
-            loop:false
+            nav:false,
         }
-    },
-
-    loop: true,
-    margin: 10,
-    autoplay: true,
-    autoplayTimeout: 3800,
-    autoplayHoverPause: true
+    }    
 });
 
