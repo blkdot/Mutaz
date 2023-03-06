@@ -3,7 +3,7 @@ $(function () {
     $('#dg-container').carrousel({
         current: 0,
         autoplay: true,
-        interval: 3000
+        interval: 8000
     });
 });
 
@@ -496,7 +496,7 @@ owl.owlCarousel({
     loop: true,
     margin: 10,
     autoplay: true,
-    autoplayTimeout: 3000,
+    autoplayTimeout: 3800,
     autoplayHoverPause: true
 });
 
