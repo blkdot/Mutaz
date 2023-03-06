@@ -194,6 +194,7 @@ img {
     display: flex;
     align-items: center;
     z-index: 100;
+    margin-top: -5px;
     position: relative;
 }
 
@@ -308,8 +309,8 @@ li {
     right: 10%;
     background-color: #000000;
     padding: 10px 24px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
     cursor: pointer;
     display: none;
 }
@@ -359,7 +360,7 @@ li {
 .show-hidden {
     position: relative;
     aspect-ratio: 0 !important;
-    z-index: 300;
+    z-index: 150;
 }
 
 .w-2 {
