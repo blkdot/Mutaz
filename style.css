@@ -555,16 +555,32 @@ li {
 
 .footer {
     background-color: #000000;
+    background-image: url('./assets/back.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    height: 500px;
 }
 
-.back-image>img {
-    width: 100%;
+.f_images {
+    background-color: white;
+    border-radius: 50%;
+    width: fit-content;
+    height: 32px;
 }
 
+.f_left, .f_right {
+    font-family: 'Madani', sans-serif;
+}
 
+.f_left>p:first-child {
+    font-size: 50px;
+    line-height: 50px;
+}
 
-
-
+.f_left>p:last-child {
+    text-align: right;
+}
 
 
 
@@ -904,6 +920,15 @@ li {
 
     .brief>div {
         width: 100%;
+    }
+
+    .f_content {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .f_left, .f_right, .f_left>p:last-child {
+        text-align: center;
     }
 
     .brief1>div {
