@@ -500,15 +500,18 @@ owl.owlCarousel({
     responsive:{
         0:{
             items:1,
-            nav:false
+            nav:false,
+            dots: false
         },
         600:{
             items:3,
-            nav:false
+            nav:false,
+            dots: false
         },
         1000:{
             items:6,
-            nav:false,
+            nav: false,
+            dots: false
         }
     }    
 });

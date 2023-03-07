@@ -403,9 +403,12 @@ li {
     padding: 17px 30px;
 }
 
-.d_button>p {
+.d_button>a {
     font-family: 'Madani', sans-serif;
     font-weight: bold;
+    color: #000000;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 .m_logo {
@@ -549,8 +552,13 @@ li {
     padding: 10px 0;
     font-weight: medium;
     font-family: 'Madani', sans-serif;
-    color: white;
     text-align: center;
+    cursor: pointer;
+}
+
+.card-button> a {
+    text-decoration: none;
+    color: white;
 }
 
 .footer {
@@ -660,6 +668,10 @@ li {
 
 * {
     -ms-overflow-style: none;
+}
+
+.carousel__prev>img, .carousel__next>img {
+    width: 50px;
 }
 
 ol,

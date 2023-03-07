@@ -711,7 +711,11 @@ button:hover {
     align-items: center;
 }
 
-.s_second_svg>svg {
+.s_second_svg>a {
+    text-align: center;
+}
+
+.s_second_svg>a>svg {
     fill: white;
     width: 70%;
     height: 100%;
