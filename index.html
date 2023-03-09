@@ -19,8 +19,11 @@
     <script>
         $(document).ready(function () {
             $(".show-hidden").click(function () {
-                $(".hidden-menu").slideToggle();
+                $(".hidden_image").slideToggle();
+                $(".hidden_lists").slideToggle();
+                $(".flex1").slideToggle();
                 $(".show").slideToggle();
+                $(".navbar").slideToggle();
                 $(".close").slideToggle();
             });
         });
@@ -70,22 +73,22 @@
                         </a>
                     </ul>
                     <ul class="d-flex">
-                        <a href="#">
+                        <a href="https://www.facebook.com/mutazbarshimhj?__cmr=1&refsrc=deprecated&_rdr">
                             <li class="icon_item">
                                 <img src="./assets/facebook.png" />
                             </li>
                         </a>
-                        <a href="#">
+                        <a href="https://twitter.com/mutazbarshim?s=11">
                             <li class="icon_item">
                                 <img src="./assets/twitter.png" />
                             </li>
                         </a>
-                        <a href="#">
+                        <a href="https://instagram.com/mutaz.barshim?utm_medium=copy_link">
                             <li class="icon_item">
                                 <img src="./assets//instagram.png" />
                             </li>
                         </a>
-                        <a href="#">
+                        <a href="https://youtube.com/user/mutaz91h">
                             <li class="icon_item">
                                 <img src="./assets/youtube.png" />
                             </li>
@@ -94,47 +97,36 @@
                 </div>
             </div>
         </div>
-        <div class="flex1">
-            <div class="flex">
-                <div class="bg-yellow">
-                    <a href="./Sponsors.html#sponsors1" style="text-align: center;">
-                        <img class="logo_item" src="./assets/Chevrolet logo.png" alt="" />
-                    </a>
-                </div>
-                <div class="bg-black">
-                    <a href="./Sponsors.html#sponsors4" style="text-align: center;">
-                        <img class="logo_item" src="./assets/cdf78f4eb16a484.png" alt="" />
-                    </a>
-                </div>
-                <div class="bg-red">
-                    <a href="./Sponsors.html#sponsors7" style="text-align: center;">
-                        <img class="logo_item" src="./assets/Redbull logo.png" alt="" />
-                    </a>
-                </div>
-            </div>
-            <div class="flex">
-                <div class="bg-black">
-                    <a href="./Sponsors.html#sponsors2" style="text-align: center;">
-                        <img class="logo_item" src="./assets/Richard mille.png" alt="" />
-                    </a>
-                </div>
-                <div class="bg-white">
-                    <a href="./Sponsors.html#sponsors3" style="text-align: center;">
-                        <img class="logo_item" src="./assets/Google color.png" alt="" />
-                    </a>
-                </div>
-                <div class="bg-black">
-                    <a href="./Sponsors.html#sponsors5" style="text-align: center;">
-                        <img class="logo_item" src="./assets/Oakley logo.png" alt="" />
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div style="background: transparent; height: 30px;"></div>
-        <div class="hidden-menu" style="margin-top: -30px;">
+        <div class="hidden-menu">
             <div>
-                <img style="height: fit-content; background-color: #000000; width:100%; object-fit: cover;"
-                    src="./assets/background.png" alt="" />
+                <div class="hidden_image" style="position: relative;">
+                    <img style="height: fit-content; background-color: #000000; width:100%; object-fit: cover;"
+                        src="./assets/background.png" alt="" />
+                    <div class="icon_lists">
+                        <ul class="d-flex">
+                            <a href="https://www.facebook.com/mutazbarshimhj?__cmr=1&refsrc=deprecated&_rdr">
+                                <li class="icon_item big_icon">
+                                    <img src="./assets/facebook.png" />
+                                </li>
+                            </a>
+                            <a href="https://twitter.com/mutazbarshim?s=11">
+                                <li class="icon_item big_icon">
+                                    <img src="./assets/twitter.png" />
+                                </li>
+                            </a>
+                            <a href="https://instagram.com/mutaz.barshim?utm_medium=copy_link">
+                                <li class="icon_item big_icon">
+                                    <img src="./assets//instagram.png" />
+                                </li>
+                            </a>
+                            <a href="https://youtube.com/user/mutaz91h">
+                                <li class="icon_item big_icon">
+                                    <img src="./assets/youtube.png" />
+                                </li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
                 <div class="flex2">
                     <div class="flex">
                         <div class="bg-yellow">
@@ -171,8 +163,44 @@
                         </div>
                     </div>
                 </div>
-                <div>
-                    <ul style="padding: 20px; width: 90%; margin: auto; text-align: center; margin-bottom: 30px;">
+                <!-- <div class="flex1">
+                    <div class="flex">
+                        <div class="bg-yellow">
+                            <a href="./Sponsors.html#sponsors1" style="text-align: center;">
+                                <img class="logo_item" src="./assets/Chevrolet logo.png" alt="" />
+                            </a>
+                        </div>
+                        <div class="bg-black">
+                            <a href="./Sponsors.html#sponsors4" style="text-align: center;">
+                                <img class="logo_item" src="./assets/cdf78f4eb16a484.png" alt="" />
+                            </a>
+                        </div>
+                        <div class="bg-red">
+                            <a href="./Sponsors.html#sponsors7" style="text-align: center;">
+                                <img class="logo_item" src="./assets/Redbull logo.png" alt="" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="flex">
+                        <div class="bg-black">
+                            <a href="./Sponsors.html#sponsors2" style="text-align: center;">
+                                <img class="logo_item" src="./assets/Richard mille.png" alt="" />
+                            </a>
+                        </div>
+                        <div class="bg-white">
+                            <a href="./Sponsors.html#sponsors3" style="text-align: center;">
+                                <img class="logo_item" src="./assets/Google color.png" alt="" />
+                            </a>
+                        </div>
+                        <div class="bg-black">
+                            <a href="./Sponsors.html#sponsors5" style="text-align: center;">
+                                <img class="logo_item" src="./assets/Oakley logo.png" alt="" />
+                            </a>
+                        </div>
+                    </div>
+                </div> -->
+                <div class="hidden_lists">
+                    <ul style="padding: 20px; width: 90%; margin: auto; text-align: center;">
                         <a style="text-decoration: none; color: #000000; display: inline-block; margin-right: 10px;"
                             href="#">
                             <li>Home</li>
@@ -213,6 +241,7 @@
                 </div>
             </div>
         </div>
+        <div style="background: transparent; height: 30px;"></div>
     </div>
     <div class="relative" style="margin-top: -30px;">
         <div class="show-hidden">
@@ -243,7 +272,7 @@
                         high jump, Mutaz soon started to reach heights he never
                         before thought possible… both figuratively and literally!
                     </p>
-                    <a href="#"><button class="b-button">Read More</button></a>
+                    <a href="./Career.html"><button class="b-button">Read More</button></a>
                 </div>
             </div>
             <div class="w-55">
@@ -347,7 +376,7 @@
                         share
                         gold at the Olympic Games Tokyo 2020.
                     </p>
-                    <a href="#"><button class="b-button">More Details</button></a>
+                    <a href="./achievements.html"><button class="b-button">More Details</button></a>
                 </div>
             </div>
         </div>
@@ -360,6 +389,52 @@
                                 <span>Mutaz</span>
                                 <br />
                                 Barshim
+                            </p>
+                            <p style="display: flex; align-items: center; margin-top: 20px;">
+                                <sapn style="margin-top: 5px; margin-right: 5px;">
+                                    <svg style="width: 20px;" xmlns="http://www.w3.org/2000/svg"
+                                        xmlns:xlink="http://www.w3.org/1999/xlink" id="Layer_1" x="0px" y="0px"
+                                        viewBox="0 0 512.001 512.001" style="enable-background:new 0 0 512.001 512.001;"
+                                        xml:space="preserve">
+                                        <path style="fill:#F5F5F5;"
+                                            d="M238.345,423.725H8.828c-4.875,0-8.828-3.953-8.828-8.828V97.104c0-4.875,3.953-8.828,8.828-8.828  h229.517V423.725z">
+                                        </path>
+                                        <path style="fill:#873250;"
+                                            d="M503.172,88.277h-335.8c0.233,0,0.465,0.034,0.689,0.104l53.386,16.312  c2.223,0.679,2.222,3.828-0.002,4.505l-46.335,14.108c-2.225,0.678-2.226,3.826-0.002,4.505l46.34,14.162  c2.223,0.679,2.222,3.828-0.002,4.504l-46.336,14.109c-2.225,0.678-2.226,3.826-0.002,4.505l46.34,14.162  c2.223,0.679,2.222,3.828-0.002,4.504l-46.322,14.103c-2.226,0.679-2.226,3.829,0,4.506l46.322,14.103  c2.225,0.678,2.226,3.826,0.002,4.505l-46.34,14.162c-2.223,0.68-2.222,3.829,0.002,4.505l46.336,14.108  c2.225,0.676,2.226,3.826,0.002,4.505l-46.34,14.162c-2.223,0.68-2.222,3.828,0.002,4.505l46.336,14.108  c2.225,0.676,2.226,3.826,0.002,4.504l-46.34,14.162c-2.223,0.68-2.222,3.829,0.002,4.505l46.335,14.109  c2.225,0.676,2.226,3.826,0.002,4.504l-46.339,14.161c-2.223,0.68-2.222,3.828,0.002,4.505l46.322,14.105  c2.226,0.676,2.226,3.828,0,4.504l-46.322,14.105c-2.225,0.676-2.226,3.826-0.002,4.504l46.34,14.162  c2.223,0.679,2.222,3.828-0.002,4.504l-53.386,16.255c-0.222,0.068-0.454,0.103-0.686,0.103h335.799  c4.875,0,8.828-3.953,8.828-8.828V97.104C512,92.229,508.047,88.277,503.172,88.277z">
+                                        </path>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                    </svg>
+                                </sapn>
+                                <span>Doha, Qatar</span>
                             </p>
                         </div>
                         <div>
@@ -387,7 +462,7 @@
                             <img class="s_img" src="./assets/Doha 2019.png" alt="" />
                             <div>
                                 <p class="bold">Gold Medal</p>
-                                <p>Doha World Championship 2019</p>
+                                <p>Doha World Championship 2019&nbsp;&nbsp;&nbsp;&nbsp;</p>
                             </div>
                         </div>
                         <div class="_flex">
@@ -400,7 +475,7 @@
                     </div>
                     <div class="_flex m_bottom">
                         <div class="_flex">
-                            <img class="s_img" src="./assets/Doha 2019.png" alt="" />
+                            <img class="s_img" src="./assets/download.png" alt="" />
                             <div>
                                 <p class="bold">Gold Medal</p>
                                 <p>London World Championship 2017</p>
@@ -423,16 +498,16 @@
                         <p class="m-content">Golden<br /> Medal</p>
                     </div>
                     <div class="text-white w-fit m-auto mb-20">
-                        <p class="circle w-fit m-auto">3</p>
+                        <p style="padding: 0 14px;" class="circle w-fit m-auto">3</p>
                         <p class="m-content">Silver<br /> Medal</p>
                     </div>
                     <div class="text-white w-fit m-auto mb-20">
-                        <p class="circle w-fit m-auto">3</p>
+                        <p style="padding: 0 14px;" class="circle w-fit m-auto">3</p>
                         <p class="m-content">Bronze<br /> Medal</p>
                     </div>
                 </div>
                 <div class="d_button">
-                    <a href="#">Discover More</a>
+                    <a href="./achievements.html">Discover More</a>
                 </div>
                 <img class="absolute _mutaz" src="./assets/Image 9.png" alt="" />
             </div>
@@ -456,19 +531,201 @@
                             <div class="item">
                                 <div class="card">
                                     <div class="card-image">
-                                        <img src="./assets/pic.jpg" alt="" />
+                                        <img src="./assets/stories/20211123_1637645265-760.jpg" alt="" />
                                     </div>
                                     <div class="card-group">
-                                        <p class="card-title">
-                                            Mutaz Barshim is participating in F1...
+                                        <div style="height: 200px; overflow: hidden; margin: 10px;">
+                                            <p class="card-title">
+                                                Mutaz Barshim waved the chequered flag...
+                                            </p>
+                                            <p class="card-content">
+                                                Doha: Fans in Qatar and around the world celebrated Lewis Hamilton’s
+                                                dominating performance at the Formula 1 Ooredoo Qatar Grand Prix 2021
+                                                that
+                                                saw new attendance records over the weekend. A total of 80,000 fans
+                                                attended
+                                                the three days of racing held at the iconic Losail Circuit Sports Club
+                                                (LCSC) that…
+                                            </p>
+                                        </div>
+                                        <p class="card-button">
+                                            <a href="#">Read More</a>
                                         </p>
-                                        <p class="card-content">
-                                            The Qatar Motor and Motorcycle Federation (QMMF) yesterday launched a
-                                            campaign
-                                            across its
-                                            social
-                                            media channels to engage the community in motorsports in Qatar and urge fans
-                                            to
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="owl-item" style="width: 128.906px; margin-right: 10px;">
+                            <div class="item">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="./assets/stories/599707.jpg" alt="" />
+                                    </div>
+                                    <div class="card-group">
+                                        <div style="height: 200px; overflow: hidden; margin: 10px;">
+                                            <p class="card-title">
+                                                Barshim urges fans to enjoy Qatar...
+                                            </p>
+                                            <p class="card-content">
+                                                Tribune News NetworkDohaThe Losail International Circuit was abuzz with
+                                                big
+                                                activity since the afternoon on Saturday, the second day of the Formula
+                                                1
+                                                Ooredoo Qatar Grand Prix. And among the sporting stars enjoying the
+                                                racing
+                                                action was Qatar’s Olympic high jump champion Mutaz Essa Barshim.The
+                                                tall
+                                                athlete also spent time…
+                                            </p>
+                                        </div>
+                                        <p class="card-button">
+                                            <a href="#">Read More</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="owl-item" style="width: 128.906px; margin-right: 10px;">
+                            <div class="item">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="./assets/stories/fifa-2022-world-cup-logo-qatar_z5t4wjudq9ty1mh5kqpn38ott-1568x882.jpg"
+                                            alt="" />
+                                    </div>
+                                    <div class="card-group">
+                                        <div style="height: 200px; overflow: hidden; margin: 10px;">
+                                            <p class="card-title">
+                                                FIFA 2022 AMBASSADOR
+                                            </p>
+                                            <p class="card-content">
+                                                As an outstanding athlete in Qatar and globally, Mutaz Barshim was
+                                                chosen as
+                                                an ambassador of 2022 FIFA WORLD CUP which will take place in Qatar in
+                                                November-December 2022. Mutaz will take place in all the FIFA events
+                                                happening in Qatar prior to the World Cup and during it, will…
+                                            </p>
+                                        </div>
+                                        <p class="card-button">
+                                            <a href="#">Read More</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="owl-item" style="width: 128.906px; margin-right: 10px;">
+                            <div class="item">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="./assets/stories/3202230234915432364536.jpg" alt="" />
+                                    </div>
+                                    <div class="card-group">
+                                        <div style="height: 200px; overflow: hidden; margin: 10px;">
+                                            <p class="card-title">
+                                                MUTAZ BARSHIM is an honoured guest...
+                                            </p>
+                                            <p class="card-content">
+                                                His Highness the Amir Sheikh Tamim bin Hamad al-Thani patronised the
+                                                inauguration ceremony of the 3-2-1 Qatar Olympic and Sports Museum, at
+                                                Khalifa International Stadium Wednesday evening.His Highness the Amir
+                                                toured
+                                                the various sections of the museum where he was briefed on the exhibits
+                                                and
+                                                collection that chronicles sports and…
+                                            </p>
+                                        </div>
+                                        <p class="card-button">
+                                            <a href="#">Read More</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="owl-item" style="width: 128.906px; margin-right: 10px;">
+                            <div class="item">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="./assets/stories/pic.jpg" alt="" />
+                                    </div>
+                                    <div class="card-group">
+                                        <div style="height: 200px; overflow: hidden; margin: 10px;">
+                                            <p class="card-title">
+                                                Mutaz Barshim is participating in F1...
+                                            </p>
+                                            <p class="card-content">
+                                                The Qatar Motor and Motorcycle Federation (QMMF) yesterday launched a
+                                                campaign
+                                                across its
+                                                social
+                                                media channels to engage the community in motorsports in Qatar and urge
+                                                fans
+                                                to
+                                            </p>
+                                        </div>
+                                        <p class="card-button">
+                                            <a href="#">Read More</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="owl-item" style="width: 128.906px; margin-right: 10px;">
+                            <div class="item">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="./assets/stories/20220328_1648450467-500.jpg" alt="" />
+                                    </div>
+                                    <div class="card-group">
+                                        <div style="height: 200px; overflow: hidden; margin: 10px;">
+                                            <p class="card-title">
+                                                Ooredoo signs three-year deal to sponsor...
+                                            </p>
+                                            <p class="card-content">
+                                                Doha: Ooredoo, major supporter of sport across all levels, signed a
+                                                three-year sponsorship agreement with athlete Mutaz Barshim. The
+                                                agreement
+                                                was signed at Ooredoo Headquarters by Sheikh Mohammed bin Abdulla Al
+                                                Thani —
+                                                Deputy Group Chief Executive Officer and Chief Executive Officer of
+                                                Ooredoo
+                                                Qatar — and Barshim. Barshim…
+                                            </p>
+                                        </div>
+                                        <p class="card-button">
+                                            <a href="#">Read More</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="owl-item" style="width: 128.906px; margin-right: 10px;">
+                            <div class="item">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="./assets/stories/Groupe-de-masques-1.png" alt="" />
+                                    </div>
+                                    <div class="card-group">
+                                        <div style="height: 200px; overflow: hidden; margin: 10px;">
+                                            <p class="card-title">
+                                                Get you someone who elevates you...
+                                            </p>
+                                            <p class="card-content">
+                                                The snapshot:October 2019, Khalifa International Stadium, Doha, Qatar.
+                                                World
+                                                high jump champion Mutaz Essa Barshim attempted to become the first man
+                                                in
+                                                history to successfully defend that particular title – and he had to do
+                                                it
+                                                in less than perfect physical condition. The credentials:As well as
+                                                winning
+                                                the 2017 World…
+                                            </p>
+                                        </div>
                                         <p class="card-button">
                                             <a href="#">Read More</a>
                                         </p>
@@ -484,16 +741,19 @@
                                         <img src="./assets/pic.jpg" alt="" />
                                     </div>
                                     <div class="card-group">
-                                        <p class="card-title">
-                                            Mutaz Barshim is participating in F1...
-                                        </p>
-                                        <p class="card-content">
-                                            The Qatar Motor and Motorcycle Federation (QMMF) yesterday launched a
-                                            campaign
-                                            across its
-                                            social
-                                            media channels to engage the community in motorsports in Qatar and urge fans
-                                            to
+                                        <div style="height: 200px; overflow: hidden; margin: 10px;">
+                                            <p class="card-title">
+                                                Nike Sponsorship withMutaz Barshim
+                                            </p>
+                                            <p class="card-content">
+                                                The 45-minute long workout includes stretching, box jumps, weights, chin
+                                                ups, knee tucks, leg curls and planks, and is perfect for both men and
+                                                women
+                                                who aim to increase their power. “I fight gravity so I work on leg and
+                                                core
+                                                strength,” said Barshim. “During every leg drill, focus on…
+                                            </p>
+                                        </div>
                                         <p class="card-button">
                                             <a href="#">Read More</a>
                                         </p>
@@ -509,16 +769,22 @@
                                         <img src="./assets/pic.jpg" alt="" />
                                     </div>
                                     <div class="card-group">
-                                        <p class="card-title">
-                                            Mutaz Barshim is participating in F1...
-                                        </p>
-                                        <p class="card-content">
-                                            The Qatar Motor and Motorcycle Federation (QMMF) yesterday launched a
-                                            campaign
-                                            across its
-                                            social
-                                            media channels to engage the community in motorsports in Qatar and urge fans
-                                            to
+                                        <div style="height: 200px; overflow: hidden; margin: 10px;">
+                                            <p class="card-title">
+                                                Chevrolet Sponsorship withMutaz Barshim
+                                            </p>
+                                            <p class="card-content">
+                                                Johan Madarasz, Automotive Marketing Manager at Jaidah Group said: “We
+                                                are
+                                                immensely proud to have him represent our brand locally and look forward
+                                                to
+                                                continue supporting his athletic journey, especially with the upcoming
+                                                Tokyo
+                                                2020 Olympic games.” Mutaz Barshim also commented: “I would like to
+                                                thank
+                                                Jaidah Automotive and Chevrolet…
+                                            </p>
+                                        </div>
                                         <p class="card-button">
                                             <a href="#">Read More</a>
                                         </p>
@@ -531,169 +797,23 @@
                             <div class="item">
                                 <div class="card">
                                     <div class="card-image">
-                                        <img src="./assets/pic.jpg" alt="" />
+                                        <img src="./assets/stories/HH-sports-excellence-Awards-14-11-21.jpg" alt="" />
                                     </div>
                                     <div class="card-group">
-                                        <p class="card-title">
-                                            Mutaz Barshim is participating in F1...
-                                        </p>
-                                        <p class="card-content">
-                                            The Qatar Motor and Motorcycle Federation (QMMF) yesterday launched a
-                                            campaign
-                                            across its
-                                            social
-                                            media channels to engage the community in motorsports in Qatar and urge fans
-                                            to
-                                        <p class="card-button">
-                                            <a href="#">Read More</a>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="owl-item" style="width: 128.906px; margin-right: 10px;">
-                            <div class="item">
-                                <div class="card">
-                                    <div class="card-image">
-                                        <img src="./assets/pic.jpg" alt="" />
-                                    </div>
-                                    <div class="card-group">
-                                        <p class="card-title">
-                                            Mutaz Barshim is participating in F1...
-                                        </p>
-                                        <p class="card-content">
-                                            The Qatar Motor and Motorcycle Federation (QMMF) yesterday launched a
-                                            campaign
-                                            across its
-                                            social
-                                            media channels to engage the community in motorsports in Qatar and urge fans
-                                            to
-                                        <p class="card-button">
-                                            <a href="#">Read More</a>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="owl-item" style="width: 128.906px; margin-right: 10px;">
-                            <div class="item">
-                                <div class="card">
-                                    <div class="card-image">
-                                        <img src="./assets/pic.jpg" alt="" />
-                                    </div>
-                                    <div class="card-group">
-                                        <p class="card-title">
-                                            Mutaz Barshim is participating in F1...
-                                        </p>
-                                        <p class="card-content">
-                                            The Qatar Motor and Motorcycle Federation (QMMF) yesterday launched a
-                                            campaign
-                                            across its
-                                            social
-                                            media channels to engage the community in motorsports in Qatar and urge fans
-                                            to
-                                        <p class="card-button">
-                                            <a href="#">Read More</a>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="owl-item" style="width: 128.906px; margin-right: 10px;">
-                            <div class="item">
-                                <div class="card">
-                                    <div class="card-image">
-                                        <img src="./assets/pic.jpg" alt="" />
-                                    </div>
-                                    <div class="card-group">
-                                        <p class="card-title">
-                                            Mutaz Barshim is participating in F1...
-                                        </p>
-                                        <p class="card-content">
-                                            The Qatar Motor and Motorcycle Federation (QMMF) yesterday launched a
-                                            campaign
-                                            across its
-                                            social
-                                            media channels to engage the community in motorsports in Qatar and urge fans
-                                            to
-                                        <p class="card-button">
-                                            <a href="#">Read More</a>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="owl-item" style="width: 128.906px; margin-right: 10px;">
-                            <div class="item">
-                                <div class="card">
-                                    <div class="card-image">
-                                        <img src="./assets/pic.jpg" alt="" />
-                                    </div>
-                                    <div class="card-group">
-                                        <p class="card-title">
-                                            Mutaz Barshim is participating in F1...
-                                        </p>
-                                        <p class="card-content">
-                                            The Qatar Motor and Motorcycle Federation (QMMF) yesterday launched a
-                                            campaign
-                                            across its
-                                            social
-                                            media channels to engage the community in motorsports in Qatar and urge fans
-                                            to
-                                        <p class="card-button">
-                                            <a href="#">Read More</a>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="owl-item" style="width: 128.906px; margin-right: 10px;">
-                            <div class="item">
-                                <div class="card">
-                                    <div class="card-image">
-                                        <img src="./assets/pic.jpg" alt="" />
-                                    </div>
-                                    <div class="card-group">
-                                        <p class="card-title">
-                                            Mutaz Barshim is participating in F1...
-                                        </p>
-                                        <p class="card-content">
-                                            The Qatar Motor and Motorcycle Federation (QMMF) yesterday launched a
-                                            campaign
-                                            across its
-                                            social
-                                            media channels to engage the community in motorsports in Qatar and urge fans
-                                            to
-                                        <p class="card-button">
-                                            <a href="#">Read More</a>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="owl-item" style="width: 128.906px; margin-right: 10px;">
-                            <div class="item">
-                                <div class="card">
-                                    <div class="card-image">
-                                        <img src="./assets/pic.jpg" alt="" />
-                                    </div>
-                                    <div class="card-group">
-                                        <p class="card-title">
-                                            Mutaz Barshim is participating in F1...
-                                        </p>
-                                        <p class="card-content">
-                                            The Qatar Motor and Motorcycle Federation (QMMF) yesterday launched a
-                                            campaign
-                                            across its
-                                            social
-                                            media channels to engage the community in motorsports in Qatar and urge fans
-                                            to
+                                        <div style="height: 200px; overflow: hidden; margin: 10px;">
+                                            <p class="card-title">
+                                                QOC Sports Excellency Awards: Male Athlete...
+                                            </p>
+                                            <p class="card-content">
+                                                Doha: The Qatar Olympic Committee held its annual Sport Excellence
+                                                Awards at
+                                                Barahat Msheireb on Sunday to honor those who made glorious achievements
+                                                and
+                                                took Qatar’s name to greater heights at the Olympic and sports levels
+                                                during
+                                                the year 2021. The ceremony attended by HE Sheikh Joaan bin Hamad Al…
+                                            </p>
+                                        </div>
                                         <p class="card-button">
                                             <a href="#">Read More</a>
                                         </p>
@@ -710,7 +830,8 @@
         </div>
     </div>
     <div class="footer relative" id="connect">
-        <div style="display: flex; flex-direction: column; justify-content: space-around; height: 100%;">
+        <div
+            style="display: flex; flex-direction: column; justify-content: space-around; height: 100%; margin-top: 40px;">
             <div class="f_content" style="color: white; display: flex; justify-content: space-around;">
                 <div class="f_left">
                     <p>Connect</p>
