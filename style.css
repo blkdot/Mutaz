@@ -558,7 +558,7 @@ li {
     height: 250px;
 }
 
-.card-image>img {
+.card-image>a>img {
     object-fit: cover;
     height: 100%;
 }
