@@ -44,6 +44,7 @@ html {
 .b-left {
     background-color: #F5F5F5;
 }
+
 .b-content {
     font-family: 'Madani', sans-serif;
     color: #7A7A7A;
@@ -578,7 +579,7 @@ li {
     cursor: pointer;
 }
 
-.card-button> a {
+.card-button>a {
     text-decoration: none;
     color: white;
 }
@@ -599,7 +600,8 @@ li {
     height: 32px;
 }
 
-.f_left, .f_right {
+.f_left,
+.f_right {
     font-family: 'Madani', sans-serif;
 }
 
@@ -611,6 +613,93 @@ li {
 .f_left>p:last-child {
     text-align: right;
 }
+
+
+
+
+
+.container1 {
+    position: relative;
+    width: 100%;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+    cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    width: auto;
+    background-color: white;
+    font-weight: bold;
+    user-select: none;
+    height: 40px;
+    -webkit-user-select: none;
+}
+/* Position the "next button" to the right */
+.next {
+    transform: rotate(-90deg);
+    margin-top: -50px;
+}
+
+.prev {
+    transform: rotate(-90deg);
+}
+
+
+.containe2 {
+    position: relative;
+    width: 100%;
+}
+
+/* Hide the images by default */
+.mySlides1 {
+    display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+    cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev1,
+.next1 {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    width: auto;
+    background-color: white;
+    font-weight: bold;
+    user-select: none;
+    height: 40px;
+    -webkit-user-select: none;
+}
+/* Position the "next button" to the right */
+.next1 {
+    transform: rotate(-90deg);
+    margin-top: -50px;
+}
+
+.prev1 {
+    transform: rotate(-90deg);
+}
+
+
+
+
 
 
 
@@ -692,7 +781,8 @@ li {
     -ms-overflow-style: none;
 }
 
-.carousel__prev>img, .carousel__next>img {
+.carousel__prev>img,
+.carousel__next>img {
     width: 40px;
 }
 
@@ -797,7 +887,8 @@ li {
     scroll-snap-align: center;
 }
 
-.carousel__snapper > a:hover, .carousel__slide > a:hover {
+.carousel__snapper>a:hover,
+.carousel__slide>a:hover {
     opacity: 1;
 }
 
@@ -823,7 +914,7 @@ li {
 .carousel:hover .carousel__snapper,
 .carousel:focus-within .carousel__snapper {
     animation-name: none;
-} */                           
+} */
 
 .carousel__navigation {
     position: absolute;
@@ -880,7 +971,7 @@ li {
     right: -1rem;
 }
 
-.menu-items > a {
+.menu-items>a {
     text-decoration: none;
     color: #000000;
 }
@@ -912,7 +1003,7 @@ li {
 
     .mutaz {
         flex-direction: column;
-    } 
+    }
 
     .m_top {
         flex-direction: column;
@@ -949,7 +1040,8 @@ li {
         margin-bottom: -100px;
     }
 
-    .m_left, .m_right {
+    .m_left,
+    .m_right {
         width: 100%;
     }
 
@@ -970,7 +1062,9 @@ li {
         gap: 50px;
     }
 
-    .f_left, .f_right, .f_left>p:last-child {
+    .f_left,
+    .f_right,
+    .f_left>p:last-child {
         text-align: center;
     }
 
@@ -999,7 +1093,7 @@ li {
     }
 
     .flex2 {
-        display: none;
+        flex-direction: column;
     }
 
     .d-flex {
