@@ -92,6 +92,11 @@ html {
 .text-uppercase,
 .icon_item {
     cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.text-uppercase:hover {
+    font-weight: bold;
 }
 
 .big_icon {
@@ -161,6 +166,8 @@ img {
 
 ._flex {
     display: flex;
+    position: relative;
+    z-index: 200;
 }
 
 .flex>div {
@@ -394,20 +401,20 @@ li {
     margin-right: 40px;
 }
 
-.hidden_image {
+.hidden-menu {
     display: none;
+}
+
+.hidden_image {
     background-image: url('./assets/background.png');
     background-size: cover;
     height: 50vh;
     background-color: #000000;
 }
-
-.hidden_lists {
-    display: none;
-}
-
 .show-hidden {
-    position: relative;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
     aspect-ratio: 0 !important;
     z-index: 150;
 }
@@ -483,18 +490,21 @@ li {
 }
 
 .b_bottom {
-    padding: 50px 0px;
     font-family: 'Madani', sans-serif;
-}
-
-.m_bottom {
-    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    height: calc(100% - 524px);
+    padding: 30px 0px;
 }
 
 .m_top1 {
     width: 90%;
     margin: auto;
     padding-bottom: 50px;
+    position: relative;
+    z-index: 200;
 }
 
 .s_img {
@@ -706,6 +716,11 @@ li {
 
 
 .container1 {
+    position: relative;
+    width: 100%;
+}
+
+.container2 {
     position: relative;
     width: 100%;
 }
@@ -1076,6 +1091,11 @@ li {
     justify-content: center;
 }
 
+.mutaz {
+    height: 100vh;
+    min-height: 800px;
+}
+
 
 @media screen and (max-width: 1200px) {
     .h_title {
@@ -1094,6 +1114,7 @@ li {
 
     .mutaz {
         flex-direction: column;
+        height: auto;
     }
 
     .m_top {
