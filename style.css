@@ -5,6 +5,10 @@
     font-family: 'Madani', sans-serif;
 }
 
+body {
+    position: relative;
+}
+
 html {
     scroll-behavior: smooth;
 }

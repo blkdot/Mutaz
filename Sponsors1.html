@@ -6,9 +6,138 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script>
+        $(document).ready(function () {
+            $(".show-hidden").click(function () {
+                $(".hidden-menu").slideToggle();
+                $(".show").slideToggle();
+                $(".close").slideToggle();
+            });
+        });
+    </script>
 </head>
 
 <body>
+    <div class="hidden-menu">
+        <div>
+            <div class="hidden_image" style="position: relative;">
+                <div class="icon_lists">
+                    <ul class="d-flex">
+                        <a href="https://www.facebook.com/mutazbarshimhj?__cmr=1&refsrc=deprecated&_rdr">
+                            <li class="icon_item big_icon">
+                                <i class="fa fa-facebook"></i>
+                            </li>
+                        </a>
+                        <a href="https://twitter.com/mutazbarshim?s=11">
+                            <li class="icon_item big_icon">
+                                <i class="fa fa-twitter"></i>
+                            </li>
+                        </a>
+                        <a href="https://instagram.com/mutaz.barshim?utm_medium=copy_link">
+                            <li class="icon_item big_icon">
+                                <i class="fa fa-instagram"></i>
+                            </li>
+                        </a>
+                        <a href="https://youtube.com/user/mutaz91h">
+                            <li class="icon_item big_icon">
+                                <i class="fa fa-youtube-play"></i>
+                            </li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+            <div class="flex2">
+                <div class="flex">
+                    <div class="bg-red">
+                        <a href="./Sponsors.html#sponsors1" style="text-align: center;">
+                            <img class="logo_item" src="./assets/2560px-Puma_Logo-white-2-1536x822.png" alt="" />
+                        </a>
+                    </div>
+                    <div class="bg-white">
+                        <a href="./Sponsors.html#sponsors4" style="text-align: center;">
+                            <img class="logo_item" src="./assets/Ooredoo_Logo_Red_on_White_Bg_RGB.png" alt="" />
+                        </a>
+                    </div>
+                    <div class="bg-red">
+                        <a href="./Sponsors.html#sponsors7" style="text-align: center;">
+                            <img class="logo_item" src="./assets/Redbull logo.png" alt="" />
+                        </a>
+                    </div>
+                </div>
+                <div class="flex">
+                    <div class="bg-black">
+                        <a href="./Sponsors.html#sponsors2" style="text-align: center;">
+                            <img class="logo_item" src="./assets/Richard mille.png" alt="" />
+                        </a>
+                    </div>
+                    <div class="bg-white">
+                        <a href="./Sponsors.html#sponsors3" style="text-align: center;">
+                            <img class="logo_item" src="./assets/Google color.png" alt="" />
+                        </a>
+                    </div>
+                    <div class="bg-black">
+                        <a href="./Sponsors.html#sponsors5" style="text-align: center;">
+                            <img class="logo_item" src="./assets/Oakley logo.png" alt="" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="hidden_lists">
+                <ul style="padding: 20px; width: 90%; margin: auto; text-align: center;">
+                    <a style="text-decoration: none; color: #000000; display: inline-block; margin-right: 10px;"
+                        href="./index.html">
+                        <li>Home</li>
+                    </a>
+                    <a style="text-decoration: none; color: #000000; display: inline-block; margin-right: 10px;"
+                        href="./Career.html">
+                        <li>Career</li>
+                    </a>
+                    <a style="text-decoration: none; color: #000000; display: inline-block; margin-right: 10px;"
+                        href="./achievements.html">
+                        <li>Achievements</li>
+                    </a>
+                    <a style="text-decoration: none; color: #000000; display: inline-block; margin-right: 10px;"
+                        href="./Partners.html">
+                        <li>Partners</li>
+                    </a>
+                    <a style="text-decoration: none; color: #000000; display: inline-block; margin-right: 10px;"
+                        href="./Sponsors.html">
+                        <li>Sponsors</li>
+                    </a>
+                    <a style="text-decoration: none; color: #000000; display: inline-block; margin-right: 10px;"
+                        href="#stories">
+                        <li>Stories</li>
+                    </a>
+                    <a style="text-decoration: none; color: #000000; display: inline-block; margin-right: 10px;"
+                        href="./Gallery.html">
+                        <li>Gallery</li>
+                    </a>
+                    <a style="text-decoration: none; color: #000000; display: inline-block; margin-right: 10px;"
+                        href="./Connect.html">
+                        <li>Connect</li>
+                    </a>
+                    <a style="text-decoration: none; color: #000000; display: inline-block; margin-right: 10px;"
+                        href="./Shop.html">
+                        <li>Shop</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="show-hidden">
+        <div class="show">
+            <p></p>
+            <p></p>
+            <p></p>
+        </div>
+        <div class="close">
+            <p>X</p>
+        </div>
+    </div>
     <div class="sponsors">
         <div class="s_second" id="sponsors1">
             <div class="s_second_svg">

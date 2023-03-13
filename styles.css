@@ -593,7 +593,6 @@ button:hover {
     display: flex;
     width: 95%;
     margin-left: auto;
-    margin-top: -5px;
 }
 
 .p_second_left {
@@ -1080,6 +1079,10 @@ button:hover {
     width: 100%;
 }
 
+.shop {
+    position: relative;
+}
+
 .sh_first {
     background-image: url('./assets/background.png');
     background-repeat: no-repeat;
@@ -1219,6 +1222,10 @@ button:hover {
     font-size: 8px;
 }
 
+.product_main {
+    position: relative;
+}
+
 .product {
     display: flex;
     height: 100vh;
@@ -1305,7 +1312,7 @@ button:hover {
     color: white;
 }
 
-.m_right {
+.rm_right {
     width: 40%;
     display: flex;
 }
@@ -1420,7 +1427,7 @@ button:hover {
         flex-direction: column;
     }
     
-    .m_left, .m_right {
+    .m_left, .rm_right {
         width: 100%;
     }
 
