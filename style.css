@@ -282,6 +282,10 @@ img {
     transition: all 0.5s ease;
 }
 
+.logo_puma {
+    width: 40%;
+}
+
 .flex>div:hover .logo_item {
     transform: scale(1.2);
 }
